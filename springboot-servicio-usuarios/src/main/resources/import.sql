@@ -4,6 +4,6 @@ insert into usuarios (username,password,enabled,nombre,apellido,email) values ('
 insert into roles (nombre) values ('ROLE_ADMIN');
 insert into roles (nombre) values ('ROLE_USER');
 
-insert into roles (nombre) values ('ROLE_ADMIN');
+
 insert into usuarios_roles (usuario_id,roles_id) values (1,1);
 insert into usuarios_roles (usuario_id,roles_id) values (2,2);
